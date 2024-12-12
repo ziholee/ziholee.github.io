@@ -1,3 +1,3 @@
 # ziholee.github.io
 
-![편집](../images/README/편집.jpg)
+![편집](../images/README/redmoon)
