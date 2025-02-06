@@ -37,7 +37,7 @@ jobs:
 
       - name: Setup Pages
         id: pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v4
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -45,8 +45,8 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
-      - name: npm build #Build site
-        run: npm install && npm run build #bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+      - name: Build site
+        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
 
