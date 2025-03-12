@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: 275's DEV BLOG # the main title
 
-tagline: hi :) # it will display as the subtitle
+tagline: 안녕하세요 :) # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   275의 개발 블로그
