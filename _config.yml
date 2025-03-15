@@ -227,3 +227,9 @@ jekyll-archives:
 jekyll_admin:
    hidden_links:
    homepage: ""
+
+assets:
+  self_host:
+    enabled: true
+    env: development
+
