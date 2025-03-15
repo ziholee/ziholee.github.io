@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Test
-date: 2025-03-14 00:00:00 +0800
-published: true
+date: 2025-03-14
+toc: true
+toc_sticky: true
 categories: [TEST, FIRST]
 tags: [test]
 ---
