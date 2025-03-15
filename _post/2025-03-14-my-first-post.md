@@ -5,7 +5,7 @@ date: 2025-03-14
 toc: true
 toc_sticky: true
 categories: [TEST, FIRST]
-tags: [test]
+tags: [first]
 ---
 
 # 여기는 마크다운 구문을 사용합니다.
