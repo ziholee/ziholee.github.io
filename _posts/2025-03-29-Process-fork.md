@@ -4,11 +4,12 @@ author: ziho
 date: 2025-03-29
 categories: [OS]
 tags: [os, process, fork, study]
+pin: true
 ---
 Process-fork
 =============
 Process Creation
-----------------
+-------------
 ## 1. 프로세스 생성
 ### 운영체제는 하나의 프로세스에서 다른 프로세스를 생성할 수 있도록 한다.
 - <span style="color: yellow">부모 프로세스(Parent Process)</span>: 새로운 프로세스를 <span style="background-color: 0000FF">생성하는</span> 기존 프로세스
