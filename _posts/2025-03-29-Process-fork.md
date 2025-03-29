@@ -15,7 +15,7 @@ Process Creation
 - <span style="color: yellow">자식 프로세스(Child Process)</span>: 부모 프로세스에 의해 생성된 <span style="background-color: 0000FF">새로운 프로세스</span>
 
 ### 프로세스들이 트리 구조를 형성하는 경우가 많다.
-트리 이미지 추가
+![tree-image](/assets/img/osTree.png)
 ### 보통 <span style="color: yellow">프로세스 식별자</span>에 의해 프로세스를 구별한다. => pid(process identifier)
 ### 자원(Resource) 공유
 - 부모와 자식은 모든 자원을 공유한다.
@@ -31,6 +31,7 @@ Process Creation
 - fork()를 호출하여 새로운 프로세스를 생성한다. -> 부모의 복사본을 생성.
 - fork -> adress space가 완전히 복제된다.
 - exec 시스템 콜을 사용하여 fork가 된 이후에 프로세스 메모리 공간에 새로운 프로그램으로 재배치한다.
+
 ```c
 #include <stdio.h>
 #include <unistd.h>
@@ -90,9 +91,8 @@ pid is 0 */
         printf("Child Complete");
     }
     return 0;
-}
 ```
-![Process Creation](./assets/img/os6.png)
+![Process Creation](/assets/img/os6.png)
 ## 2. wait() function
 ### pid_t wait(int *status) -> status는 잘 수행이 되었는지 안되었는지 알려준다.
 - 자식 프로세스가 끝날 때까지 막는다. -> Child가 끝날 때까지 대기 = <span style="color: blue">block</span>
