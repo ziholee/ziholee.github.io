@@ -1,5 +1,5 @@
 ---
-title: Process-fork
+title: "[운영체제] Process-fork"
 author: ziho
 date: 2025-03-29
 categories: [운영체제]
