@@ -6,9 +6,6 @@ categories: [운영체제]
 tags: [os, process, ipc, interprocess, study]
 pin: true
 ---
-Process-IPC
-=============
-
 ## Interprocess Communication
 ### 프로세스는 시스템 내에서 <span style="color:red">독립적</span>이거나 <span style="color:red">협조적</span>일 수 있다.
 ### 프로세스가 협동을 하는 이유
