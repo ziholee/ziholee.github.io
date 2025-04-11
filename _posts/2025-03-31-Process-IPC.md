@@ -136,3 +136,5 @@ named pipe는 ordinary pipe보다 더 강력하다.
 ## 유닉스 도메인 소켓
 유닉스 도메인 안에서 통신할 때 사용한다.
 퍼포먼스는 ordinary pipe > unix domain socket > named pipe > network socket 순이다.
+
+- 아직 수정 중
