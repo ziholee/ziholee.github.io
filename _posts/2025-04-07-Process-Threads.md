@@ -2,7 +2,7 @@
 title: "[운영체제] Process-Threads"
 author: ziho
 date: 2025-04-07
-categories: [운영체제]
+categories: [운영체제, 프로세스, 스레드]
 tags: [os, process, thread, study]
 pin: false
 ---
