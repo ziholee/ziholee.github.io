@@ -29,7 +29,8 @@ pin: false
 -
 커널
 ## Single and Multithreaded Processes(단일 및 다중 스레드 프로세스)
-![싱글/멀티스레드 프로세스](/ziholee.github.io/assets/img/SingleAndMultiThread.png)
+
+![singleandmultithread](/assets/img/SingleAndMultiThread.png)
 
 - code, data, files는 공유
 - registers(SP,PC), stack은 분리 -> 즉, 공유되지 않는다.
