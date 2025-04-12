@@ -102,5 +102,6 @@ SJF(Shortest Job First) aka Shortest Process Next
 | Round Robin | 시간 할당량 순환 실행 | 반응성 뛰어남 | 문맥 전환 오버헤드 있음 |
 | Priority Scheduling | 우선순위 높은 순서로 실행 | 중요한 작업 빠르게 처리 | 기아(Starvation) 가능 |
 | Multilevel Queue | 프로세스 그룹 별로 큐 분리 | 구조화된 처리 가능 | 유연성 낮음, 큐 이동 어려움 |
+
 + 멀티 레벨 큐는 아직 배우지 않음
 
