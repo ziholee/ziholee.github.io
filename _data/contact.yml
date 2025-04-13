@@ -6,6 +6,10 @@
 - type: instagram
   icon: "fab fa-instagram"
 
+- type: thread
+  icon: "fa-brands fa-square-threads"
+  noblank: true
+
 - type: email
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
