@@ -60,6 +60,7 @@
         {% when 'threads' %}
           {%- capture url -%}
             https://{{ entry.type }}.net/{{ site[entry.type].username }}
+          {%- endcapture -%}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
