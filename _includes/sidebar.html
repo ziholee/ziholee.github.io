@@ -53,10 +53,13 @@
 
     {% for entry in site.data.contact %}
       {% case entry.type %}
-        {% when 'github', 'instagram', 'threads' %}
+        {% when 'github', 'instagram' %}
           {%- capture url -%}
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
+        {% when 'threads' %}
+          {%- caputer url -%}
+            https://{{ entry.type }}.net/{{ site[entry.type].username }}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
           {%- capture url -%}
