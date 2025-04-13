@@ -58,7 +58,7 @@
             https://{{ entry.type }}.com/{{ site[entry.type].username }}
           {%- endcapture -%}
         {% when 'threads' %}
-          {%- caputer url -%}
+          {%- capture url -%}
             https://{{ entry.type }}.net/{{ site[entry.type].username }}
         {% when 'email' %}
           {% assign email = site.social.email | split: '@' %}
