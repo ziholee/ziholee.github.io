@@ -121,22 +121,11 @@ script_includes:
       <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
     </dialog>
   {% endif %}
-<!--
+
   <div class="content">
     {{ content }}
   </div>
--->
-  <!-- utuerances comment -->
-  <div>
-    <script src="https://utteranc.es/client.js"
-          repo="ziholee/ziholee.github.io"
-          issue-term="pathname"
-          label="Comments"
-          theme="github-dark-orange"
-          crossorigin="anonymous"
-          async>
-  </script>
-  </div>
+
   <div class="post-tail-wrapper text-muted">
     <!-- categories -->
     {% if page.categories.size > 0 %}
@@ -187,4 +176,14 @@ script_includes:
     <!-- .post-tail-bottom -->
   </div>
   <!-- div.post-tail-wrapper -->
+  <div class="comment">
+    <script src="https://utteranc.es/client.js"
+          repo="ziholee/ziholee.github.io"
+          issue-term="pathname"
+          label="Comments"
+          theme="github-dark-orange"
+          crossorigin="anonymous"
+          async>
+    </script>
+  </div>
 </article>
