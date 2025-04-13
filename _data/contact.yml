@@ -6,7 +6,7 @@
 - type: instagram
   icon: "fab fa-instagram"
 
-- type: thread
+- type: threads
   icon: "fa-brands fa-square-threads"
   noblank: true
 
