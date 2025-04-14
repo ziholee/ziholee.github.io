@@ -2,7 +2,7 @@
 title: "[운영체제] Process-fork"
 author: ziho
 date: 2025-03-29
-categories: [운영체제]
+categories: [운영체제, 프로세스, FORK]
 tags: [os, process, fork, study]
 pin: true
 ---

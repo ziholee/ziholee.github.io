@@ -2,7 +2,7 @@
 title: "[운영체제] CPU Scheduling"
 author: ziho
 date: 2025-04-12
-categories: [운영체제, 스케쥴링]
+categories: [운영체제, 스케줄링]
 tags: [os, process, cpu, scheduling, study]
 pin: true
 ---

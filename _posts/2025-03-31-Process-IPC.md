@@ -2,7 +2,7 @@
 title: "[운영체제] Processec-IPC"
 author: ziho
 date: 2025-03-31
-categories: [운영체제]
+categories: [운영체제, 프로세스, IPC]
 tags: [os, process, ipc, interprocess, study]
 pin: false
 ---
