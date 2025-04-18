@@ -15,8 +15,6 @@ pin: true
 ## I/O 버스트: 디스크나 네트워크 등의 입출력을 기다리는 시간 
 - e.g. 키보드나 마우스 입력, 네트워크로 데이터를 주고받을 때
 
----
-
 # CPU Scheduler (CPU 스케줄러)
 Short-Term Scheduler가 Ready Queue에 있는 프로세스 중 하나를 선택해 CPU에 할당한다.
 Ready Queue는 단순 FIFO가 아니며 다양한 방식으로 정렬 가능하다.
@@ -70,6 +68,7 @@ Ready Queue는 단순 FIFO가 아니며 다양한 방식으로 정렬 가능하�
 ## Response Time (응답 시간)
 - 요청을 보낸 순간부터 처음 반응이 나타날 때까지의 시간
 - 사용자가 어떤 요청을 했을 때, 언제까지 걸렸는지
+
 ---
 ### 표로 정리하면
 
