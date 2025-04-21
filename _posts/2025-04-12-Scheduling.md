@@ -297,7 +297,35 @@ Burst Time <Down>, Priority <Up>
 
 #### Linux Scheduling
 
-#### Linux 
+- O(1) 스케줄링: 시간 복잡도가 일정
+- 우선순위 기반(Priority based) + 선점형(Preemptive)
+- 0~9: 실시간 프로세스 (real-time)
+- 100~140: 비실시간 우선순위 (nice value)
+    - nice: 양보를 잘한다. -> 우선순위가 낮다.
+- 우선순위가 높을수록 Quantum을 길게 받는다.
+
+Runqueue 구성
+
+---
+
+- 각 CPU 코어에 runqueue가 존재한다.
+- active array: 실행 가능한 task를 저장한다.
+    - 퀀텀이 남았다.
+- expired array: 타임 슬라이스가 끝난 task를 저장한다.
+    - burst가 길어서 퀀텀을 다 썼다.
+- 모든 active 소진 시, expired array와 바꾼다(switching, swap, exchange).
+
+#### Linux Scheduling (Cont.)
+
+- Real-time task: 우선순위가 바귀지 않는다.
+    - static priorities
+- Other task: nice 값 기반으로 우선순위가 바뀐다.
+    - more interactive (longer I/O-related sleep): -5
+        - I/O를 많이 기다리는 task는 우선순위가 올라간다.
+    - more cpu-bound (less sleep): +5
+        - cpu를 오래 쓰는 task는 우선순위가 내려간다.
+
+* 우선순위가 올라갈수록 우선번호는 내려가고, 우선순위가 내려갈수록 우선번호는 올라간다.
 
 ## 스케줄링 알고리즘
 
