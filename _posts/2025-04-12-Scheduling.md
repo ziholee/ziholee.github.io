@@ -7,7 +7,6 @@ tags: [os, process, cpu, scheduling, burst, preemptive, non-preemptive, study]
 pin: true
 ---
 # Cycle of CPU/IO Burst (CPU-I/O 버스트 주기)
-<<<<<<< HEAD
 
 #### 프로세스 실행 흐름은 CPU Burst와 I/O 대기 시간의 반복으로 구성된다.
 
@@ -23,7 +22,6 @@ pin: true
 
 ## CPU Scheduler (CPU 스케줄러)
 
-=======
 프로세스 실행 흐름은 CPU Burst와 I/O 대기 시간의 반복으로 구성된다.
 
 ## CPU 버스트: CPU에서 실제로 실행되는 시간 
@@ -33,7 +31,6 @@ pin: true
 - e.g. 키보드나 마우스 입력, 네트워크로 데이터를 주고받을 때
 
 # CPU Scheduler (CPU 스케줄러)
->>>>>>> e2ba794798b88b2f98f6f9cf1ed22449af88fe7e
 Short-Term Scheduler가 Ready Queue에 있는 프로세스 중 하나를 선택해 CPU에 할당한다.
 Ready Queue는 단순 FIFO가 아니며 다양한 방식으로 정렬 가능하다.
 스케줄링은 프로세스가 다음 중 하나의 상태가 될 때 발생한다.
@@ -121,6 +118,7 @@ Ready Queue는 단순 FIFO가 아니며 다양한 방식으로 정렬 가능하�
 ||Response Time|
 
 ---
+
 # Scheduling Policies
 
 ## Non-Preemptive
@@ -311,6 +309,3 @@ Burst Time <Down>, Priority <Up>
 | Round Robin | 시간 할당량 순환 실행 | 반응성 뛰어남 | 문맥 전환 오버헤드 있음 |
 | Priority Scheduling | 우선순위 높은 순서로 실행 | 중요한 작업 빠르게 처리 | 기아(Starvation) 가능 |
 | Multilevel Queue | 프로세스 그룹 별로 큐 분리 | 구조화된 처리 가능 | 유연성 낮음, 큐 이동 어려움 |
-
-
-
