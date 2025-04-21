@@ -1,7 +1,7 @@
 ---
 title: "[운영체제] Process Synchronization"
 author: ziho
-date: 2025-04-12
+date: 2025-04-21
 categories: [운영체제, 프로세스동기화]
 tags: [os, process, synchronization, concurrency, race-condition, critical-section, mutual-exculsion, progress, bounded-waiting, study]
 pin: true
