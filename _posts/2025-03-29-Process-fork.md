@@ -4,7 +4,7 @@ author: ziho
 date: 2025-03-29
 categories: [운영체제, 프로세스, FORK]
 tags: [os, process, fork, study]
-pin: true
+pin: false
 ---
 ## 1. 프로세스 생성
 ### 운영체제는 하나의 프로세스에서 다른 프로세스를 생성할 수 있도록 한다.
